@@ -1,6 +1,6 @@
 # Development notes
 
-This project was done as a part of **Principles of repurposing of electronics** course at University of Oulu. The main reason for choosing this project in particular was that I wanted to utilize (read: get rid of) some of the elecronic junk that has found its way from dumpsters to my basement over the course of several years.
+This project was done as a part of **Principles of repurposing of electronics (521229A) ** course at University of Oulu. The main reason for choosing this project in particular was that I wanted to utilize (read: get rid of) some of the elecronic junk that has found its way from dumpsters to my basement over the course of several years.
 
 Converting an ATX power supply into a general-purpose DC supply is relatively straightforward and requires little to no knowledge of electronics. An ATX supply provides several set levels of DC voltage: 3.3V (orange wire) 5V (red wire) and 12V (yellow wire). A negative 12V voltage is also provided (blue wire) but it was not used in this project.
 
@@ -13,6 +13,7 @@ Converting an ATX power supply into a general-purpose DC supply is relatively st
 * 1 x 18 ohm 5W power resistor for a dummy load on the power supply
 * 1 x 2A fuse for the current going through multimeter
 * 3mm MDF material for the casing
+* Wire, capable of handling a couple amps
 
 ## Wires used in this project:
 
