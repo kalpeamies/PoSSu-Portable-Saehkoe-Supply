@@ -1,3 +1,32 @@
 # Development notes
 
-This project was done as a part of Principles of repurposing of electronics course at University of Oulu. The main reason for choosing this project in particular was that I wanted to utilize (read: get rid of) some of the elecronic junk that has found its way from a dumpster to my basement over the course of several years.
+This project was done as a part of **Principles of repurposing of electronics** course at University of Oulu. The main reason for choosing this project in particular was that I wanted to utilize (read: get rid of) some of the elecronic junk that has found its way from dumpsters to my basement over the course of several years.
+
+Converting an ATX power supply into a general-purpose DC supply is relatively straightforward and requires little to no knowledge of electronics. An ATX supply provides several set levels of DC voltage: 3.3V (orange wire) 5V (red wire) and 12V (yellow wire). A negative 12V voltage is also provided (blue wire) but it was not used in this project.
+
+## Parts and components used in this project:
+
+* 1 x ATX power supply, salvaged from a dumpster
+* 1 x Fluke table-mounted multimeter from the 70's, mains-operated, salvaged from a dumpster
+* 2 x LEDs
+* 2 x PALJONKO ohm resistors for LEDs
+* 1 x 18 ohm 5W power resistor for a dummy load on the power supply
+* 1 x 2A fuse for the current going through multimeter
+* 3mm MDF material for the casing
+
+## Wires used in this project:
+
+### Orange wire(s): +3.3V
+Provides a DC voltage of +3.3 volts. All pins of this color are interconnected so it doesn't matter which one is chosen.
+### Red wire(s): +5V
+Provides a DC voltage of +5 volts. All pins of this color are interconnected so it doesn't matter which one is chosen.
+### Yellow wire(s): +12V
+Provides a DC voltage of +12 volts. All pins of this color are interconnected so it doesn't matter which one is chosen.
+### Black wire(s): Ground
+Provides the ground voltage. All pins of this color are interconnected so it doesn't matter which one is chosen.
+### Green wire: ATX power button
+When shorted to ground, this wire turns the power supply on. In this project it's connected to a switch in the front panel.
+### Purple wire: Standby +5V
+This pin provides a +5V voltage when the supply is plugged in, even if it's not turned on. Normally used for purposes such as wake-on-lan, in this project it's used to power the red "Stby" status LED.
+### Gray wire: Power OK
+This pin provides a +5V voltage to signal that the power supply is turned on and working normally. In this project it's used to power the green "OK" status LED. 
