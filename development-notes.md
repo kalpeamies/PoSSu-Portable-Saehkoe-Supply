@@ -1,6 +1,6 @@
 # Development notes
 
-PoSSu is a portable, mains-operated DC voltage supply that can supply up to 350 Watts of DC power at three discrete voltage levels: +3.3V, +5V and +12V. PoSSu also contains a digital multimeter that can be used together with the power supply to measure current, but also independently. The multimeter has been modified so that current from the power supply can be brought directly through the meter's casing.
+PoSSu is a portable, mains-operated DC voltage supply that can supply up to 350 Watts of DC power at three discrete voltage levels: +3.3V, +5V and +12V. It's based on a common ATX power supply. PoSSu also contains a digital multimeter that can be used together with the power supply to measure current, but also independently. The multimeter has been modified so that current from the power supply can be brought in directly through the meter's casing.
 
 This project was done as a part of **Principles of repurposing of electronics (521229A)** course at University of Oulu. The main motivation for choosing this project in particular was that I wanted to utilize (read: get rid of) some of the elecronic junk that has found its way from dumpsters to my basement over the course of several years.
 
@@ -21,17 +21,21 @@ Converting an ATX power supply into a general-purpose DC supply is relatively st
 
 ## Wires used:
 
-### Orange wire(s): +3.3V
+#### Orange wire(s): +3.3V
 Provides a DC voltage of +3.3 volts. All pins of this color are interconnected so it doesn't matter which one is chosen.
-### Red wire(s): +5V
+#### Red wire(s): +5V
 Provides a DC voltage of +5 volts. All pins of this color are interconnected so it doesn't matter which one is chosen.
-### Yellow wire(s): +12V
+#### Yellow wire(s): +12V
 Provides a DC voltage of +12 volts. All pins of this color are interconnected so it doesn't matter which one is chosen.
-### Black wire(s): Ground
+#### Black wire(s): Ground
 Provides the ground voltage. All pins of this color are interconnected so it doesn't matter which one is chosen.
-### Green wire: ATX power button
+#### Green wire: ATX power button
 When shorted to ground, this wire turns the power supply on. In this project it's connected to a switch in the front panel.
-### Purple wire: Standby +5V
+#### Purple wire: Standby +5V
 This pin provides a +5V voltage when the supply is plugged in, even if it's not turned on. Normally used for purposes such as wake-on-lan, in this project it's used to power the red "Stby" status LED.
-### Gray wire: Power OK
+#### Gray wire: Power OK
 This pin provides a +5V voltage to signal that the power supply is turned on and working normally. In this project it's used to power the green "OK" status LED. 
+
+## Improvements for possible future revisions
+
+* MDF is not the most fireproof material
