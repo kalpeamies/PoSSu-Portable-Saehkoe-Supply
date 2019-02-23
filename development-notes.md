@@ -1,12 +1,14 @@
 # Development notes
 
-This project was done as a part of **Principles of repurposing of electronics (521229A)** course at University of Oulu. The main reason for choosing this project in particular was that I wanted to utilize (read: get rid of) some of the elecronic junk that has found its way from dumpsters to my basement over the course of several years.
+PoSSu is a portable, mains-operated DC voltage supply that can supply up to 350 Watts of DC power at three discrete voltage levels: +3.3V, +5V and +12V. PoSSu also contains a digital multimeter that can be used together with the power supply to measure current, but also independently. The multimeter has been modified so that current from the power supply can be brought directly through the meter's casing.
+
+This project was done as a part of **Principles of repurposing of electronics (521229A)** course at University of Oulu. The main motivation for choosing this project in particular was that I wanted to utilize (read: get rid of) some of the elecronic junk that has found its way from dumpsters to my basement over the course of several years.
 
 Converting an ATX power supply into a general-purpose DC supply is relatively straightforward and requires little to no knowledge of electronics. An ATX supply provides several set levels of DC voltage: 3.3V (orange wire) 5V (red wire) and 12V (yellow wire). A negative 12V voltage is also provided (blue wire) but it was not used in this project.
 
 ![Image](appearance.png)
 
-## Parts and components used in this project:
+## Parts and components used:
 
 * 1 x ATX power supply, salvaged from a dumpster
 * 1 x Fluke table-mounted multimeter from the 70's, mains-operated, salvaged from a dumpster
@@ -17,7 +19,7 @@ Converting an ATX power supply into a general-purpose DC supply is relatively st
 * 3mm MDF material for the casing
 * Wire, capable of handling a couple amps
 
-## Wires used in this project:
+## Wires used:
 
 ### Orange wire(s): +3.3V
 Provides a DC voltage of +3.3 volts. All pins of this color are interconnected so it doesn't matter which one is chosen.
