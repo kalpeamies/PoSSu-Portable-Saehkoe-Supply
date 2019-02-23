@@ -9,7 +9,6 @@ Converting an ATX power supply into a general-purpose DC supply is relatively st
 ![Image](appearance.png)
 
 ## Parts and components used:
-
 * 1 x ATX power supply, salvaged from a dumpster
 * 1 x Fluke table-mounted multimeter from the 70's, mains-operated, salvaged from a dumpster
 * 2 x LEDs
@@ -19,8 +18,13 @@ Converting an ATX power supply into a general-purpose DC supply is relatively st
 * 3mm MDF material for the casing
 * Wire, capable of handling a couple amps
 
-## Wires used:
+## Tools used:
+* Laser cutter
+* Wire cutter
+* Soldering iron and solder
+* 
 
+## Wires used:
 #### Orange wire(s): +3.3V
 Provides a DC voltage of +3.3 volts. All pins of this color are interconnected so it doesn't matter which one is chosen.
 #### Red wire(s): +5V
