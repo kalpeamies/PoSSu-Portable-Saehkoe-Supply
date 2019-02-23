@@ -4,6 +4,8 @@ This project was done as a part of **Principles of repurposing of electronics (5
 
 Converting an ATX power supply into a general-purpose DC supply is relatively straightforward and requires little to no knowledge of electronics. An ATX supply provides several set levels of DC voltage: 3.3V (orange wire) 5V (red wire) and 12V (yellow wire). A negative 12V voltage is also provided (blue wire) but it was not used in this project.
 
+![Image](appearance.png)
+
 ## Parts and components used in this project:
 
 * 1 x ATX power supply, salvaged from a dumpster
