@@ -78,7 +78,7 @@ Rest of the wires can be truncated using wire cutters.
 * The resistor used as a dummy load will run hot, so keep it away from any wooden parts, e.g. the casing.
 * If you truncate excess wires, be sure to shield their open ends with e.g. electric tape to avoid short circuits.
 
-## Improvements for possible future revisions
+## Improvement suggestions for possible future revisions
 * MDF is not the most fireproof material, so you might consider using something else for the casing. A transparent material such as acrylic might be cool and even helpful for troubleshooting.
 * I used 0.1 mm of kerf on tab edges. It was a bit too much, and as a result the tabs were very tight and the case was very hard to assemble. If you plan to use my documents, use a little less kerf.
 * Short circuit protection mechanism. A stepped rotary switch would do the trick.
