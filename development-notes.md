@@ -51,6 +51,9 @@ This pin provides a +5V voltage to signal that the power supply is turned on and
 * Only ONE voltage level may be switched to output (out of center position) at a time. Switching two switches simultaneously out of center position will result in a short circuit that will most likely fry the power supply or at least blow its fuse (provided it has one). Since I did not implement a protection mechanish for this, it's the user's responsibility to ensure only one voltage level is switched to output at a time. Always double-check the switches before turning them.
 * MDF is made of wood and is therefore not fireproof. As there are some exposed wires inside the casing, a risk of a high-current short circuit exists. I would advise that you never leave the device unattended when it's plugged in.
 * The resistor used as a dummy load will run hot, so keep it away from any wooden parts, e.g. the casing.
+
 ## Improvements for possible future revisions
 * MDF is not the most fireproof material
 * I used 0.1 mm of kerf on tab edges. It was a bit too much, and as a result the tabs were very tight and the case was very hard to assemble.
+* Short circuit protection mechanism. A stepped rotary switch would do the trick.
+* Both the supply and the multimeter require mains power. Carrying two power cords and using two wall outlets is a little unwieldly, but you might consider getting a C13 power cord splitter. The multimeter only consumes about 5W of power, so it should not be a problem.
