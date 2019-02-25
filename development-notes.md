@@ -49,9 +49,9 @@ This pin provides a +5V voltage to signal that the power supply is turned on and
 
 ## Casing
 ![Image](casing.png)
-**Blue:** Floors
-**Red:** Sides
-**Green:** Support pieces that keep the power supply in place
+**Blue:** Floors  
+**Red:** Sides  
+**Green:** Support pieces that keep the power supply in place  
 **Purple:** Support beams that are located directly below the power supply to support its weight
 
 ## Warnings
