@@ -28,7 +28,8 @@ Despite of the two devices being connected, they can still be used independently
 * 1 x 2A fuse for the current going through multimeter
 * 1 x 2-port banana connector jack for voltage output
 * 4 x small screws and corresponding nuts for attaching the multimeter to casing
-* 3mm MDF material for the casing
+* 1 x small piece of wiring board to connect fuse and wires going to multimeter
+* 0.3 m2 of 3mm MDF material for the casing
 * Wire, capable of handling a couple amps
 
 ## Tools used
