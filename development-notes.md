@@ -19,6 +19,9 @@ The user can choose whether to bring voltage directly to output port or run it t
 
 Despite of the two devices being connected, they can still be used independently; power can be drawn from the supply without running it through current meter, and the multimeter can still be used as a standalone meter for voltage, resistance, etc.
 
+![Image](wiring.png)
+*Illustrative schematic of wiring*
+
 ## Parts and components used
 * 1 x ATX power supply, salvaged from a dumpster
 * 1 x Fluke 8000A table-mounted, mains-operated digital multimeter, salvaged from a dumpster
@@ -60,14 +63,14 @@ Rest of the wires can be truncated using wire cutters.
 
 ## Casing
 ![Image](casing.png)
-Illustration of the casing, excluding front panel  
+*Illustration of the casing, excluding front panel  
 **Blue:** Floors (left: bottom, right: top)  
 **Red:** Sides  
 **Green:** Support pieces that surround the power supply keep the it in place  
-**Purple:** Support beams that are located directly below the power supply to support its weight
+**Purple:** Support beams that are located directly below the power supply to support its weight*
 
 ![Image](frontpanel.png)  
-Illustration of the front panel
+*Illustration of the front panel*
 
 ## Warnings
 * Only ONE voltage level may be switched to output (out of center position) at a time. Switching two switches simultaneously out of center position will result in a short circuit that will most likely fry the power supply or at least blow its fuse (provided it has one). Since I did not implement a protection mechanish for this, it's the user's responsibility to ensure only one voltage level is switched to output at a time. Always double-check the switches before turning them.
