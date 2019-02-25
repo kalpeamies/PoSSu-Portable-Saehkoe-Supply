@@ -45,22 +45,26 @@ When shorted to ground, this wire turns the power supply on. In this project it'
 **Purple wire: Standby +5V**  
 This pin provides a +5V voltage when the supply is plugged in, even if it's not turned on. Normally used for purposes such as wake-on-lan, in this project it's used to power the red "Stby" status LED.  
 **Gray wire: Power OK**  
-This pin provides a +5V voltage to signal that the power supply is turned on and working normally. In this project it's used to power the green "OK" status LED.
+This pin provides a +5V voltage to signal that the power supply is turned on and working normally. In this project it's used to power the green "OK" status LED.  
+
+Rest of the wires can be truncated using wire cutters.
 
 ## Casing
 ![Image](casing.png)
-**Blue:** Floors  
+Illustration of the casing, excluding front panel  
+**Blue:** Floors (left: bottom, right: top)  
 **Red:** Sides  
-**Green:** Support pieces that keep the power supply in place  
+**Green:** Support pieces that surround the power supply keep the it in place  
 **Purple:** Support beams that are located directly below the power supply to support its weight
 
 ## Warnings
 * Only ONE voltage level may be switched to output (out of center position) at a time. Switching two switches simultaneously out of center position will result in a short circuit that will most likely fry the power supply or at least blow its fuse (provided it has one). Since I did not implement a protection mechanish for this, it's the user's responsibility to ensure only one voltage level is switched to output at a time. Always double-check the switches before turning them.
 * MDF is made of wood and is therefore not fireproof. As there are some exposed wires inside the casing, a risk of a high-current short circuit exists. I would advise that you never leave the device unattended when it's plugged in.
 * The resistor used as a dummy load will run hot, so keep it away from any wooden parts, e.g. the casing.
+* If you truncate excess wires, be sure to shield their open ends with e.g. electric tape to avoid short circuits.
 
 ## Improvements for possible future revisions
-* MDF is not the most fireproof material
+* MDF is not the most fireproof material, so you might consider using something else for the casing. A transparent material such as acrylic might be cool and even helpful for troubleshooting.
 * I used 0.1 mm of kerf on tab edges. It was a bit too much, and as a result the tabs were very tight and the case was very hard to assemble. If you plan to use my documents, use a little less kerf.
 * Short circuit protection mechanism. A stepped rotary switch would do the trick.
 * Both the supply and the multimeter require mains power. Carrying two power cords and using two wall outlets is a little unwieldly, but you might consider getting a C13 power cord splitter. The multimeter only consumes about 5W of power, so it should not be a problem.
