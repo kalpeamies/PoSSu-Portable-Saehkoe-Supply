@@ -82,6 +82,6 @@ Illustration of the front panel
 * Both the supply and the multimeter require mains power. Carrying two power cords and using two wall outlets is a little unwieldly, but you might consider getting a C13 power cord splitter. The multimeter only consumes about 5W of power, so it should not be a problem.
 
 ## What I learned
-During this project I learned a lot about the nature and behavior of ATX power supplies. Previously I had never put much thought on what kind of pins all those connectors include.
+During this project I learned a lot about the nature and behavior of ATX power supplies. Previously I had never put much thought on what kind of pins all those connectors include, and I was surprised'how straightforward the procedure was overall.
 
 Prior to this project I had no experience or knowledge on laser cutting. After watching a couple tutorials on YouTube I installed Inkscape and started to sketch my casing. Overall it took me about 5 hours to draw the casing and one hour to cut and assemble it.
