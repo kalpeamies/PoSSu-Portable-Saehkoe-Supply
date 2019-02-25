@@ -6,11 +6,18 @@ This project was done as a part of **Principles of repurposing of electronics (5
 
 ![Image](appearance.png)
 
+## Design procedure
 Converting an ATX power supply into a general-purpose DC supply is relatively straightforward and requires little to no knowledge of electronics. An ATX supply provides several set levels of DC voltage: 3.3V (orange wire) 5V (red wire) and 12V (yellow wire). A negative 12V voltage is also provided (blue wire) but it was not used in this project.
 
-In order to get the power supply working, however, a couple of thigs need to be done. First of all, the green wire needs to be shorted to ground. The green wire is normally wired to the power button of a PC, and shorting it to ground simulates a press of a power button. Whether the pins need to be shorted only once or constantly depends on the supply. This supply required the pins to be shorted all the time, and unplugging them would immediately turn the supply off.
+In order to get the power supply working, however, a couple of thigs need to be done. First of all, the green wire needs to be shorted to ground. The green wire is normally wired to the power button of a PC, and shorting it to ground simulates a press of a power button. Whether the pins need to be shorted only once or constantly depends on the supply. This supply required the pins to be shorted all the time, and unplugging them would immediately turn the supply off. It's useful to short the pins through a switch or a button so it can be used as a power button for the device. Since my supply required continuous short, I used a 2-position slide switch, but in case it didn't, a push button might have done the thing.
 
 Secondly, to get the supply to actually supply power properly, it needs to be "deceived" to think it's been plugged to a motherboard. For this, a low-resistance resistor is used to create a dummy load on a +5V pin. **Note that this resistor will draw a lot of current, causing it to heat up. A power resistor is warmly (no pun intended) recommended.** I used an 18 ohm power resistor with a maximum power dissipation of 5 Watts. I hot-glued it directly in front of the power supply's cooling air intake to aid heat dissipation.
+
+I wanted this project to be a single functioning entity instead of just gluing two gadgets together. I wanted to be able to measure current with just a press of a button, without having to run banana cables though the multimeter's panel. To solve this, I made a little hole to the multimeter's plastic casing, ran two wires through it and soldered them to pins corresponding to the meter's jacks, thus bypassing the front panel. This solution, however, also bypassed the meter's internal fuse, so an external fuse needed to be added to the wiring. The multimeter's current meter was now in series with the voltage supply, allowing user to measure current and calculate power output.
+
+The user can choose whether to bring voltage directly to output port or run it through current meter. A three-position switch controls each voltage level; in center position the cirtuit is open and no voltage is supplied to output port, in upper position the current meter is used, and in lower position voltage is brought directly to output port.
+
+Despite of the two devices being connected, they can still be used independently; power can be drawn from the supply without running it through current meter, and the multimeter can still be used as a standalone meter for voltage, resistance, etc.
 
 ## Parts and components used
 * 1 x ATX power supply, salvaged from a dumpster
@@ -30,6 +37,7 @@ Secondly, to get the supply to actually supply power properly, it needs to be "d
 * Wire stripper
 * Soldering iron and solder
 * Hot glue gun
+* Cordless drill
 
 ## Wires used
 **Orange wire(s): +3.3V**  
@@ -57,6 +65,9 @@ Illustration of the casing, excluding front panel
 **Green:** Support pieces that surround the power supply keep the it in place  
 **Purple:** Support beams that are located directly below the power supply to support its weight
 
+![Image](frontpanel.png)  
+Illustration of the front panel
+
 ## Warnings
 * Only ONE voltage level may be switched to output (out of center position) at a time. Switching two switches simultaneously out of center position will result in a short circuit that will most likely fry the power supply or at least blow its fuse (provided it has one). Since I did not implement a protection mechanish for this, it's the user's responsibility to ensure only one voltage level is switched to output at a time. Always double-check the switches before turning them.
 * MDF is made of wood and is therefore not fireproof. As there are some exposed wires inside the casing, a risk of a high-current short circuit exists. I would advise that you never leave the device unattended when it's plugged in.
@@ -70,4 +81,6 @@ Illustration of the casing, excluding front panel
 * Both the supply and the multimeter require mains power. Carrying two power cords and using two wall outlets is a little unwieldly, but you might consider getting a C13 power cord splitter. The multimeter only consumes about 5W of power, so it should not be a problem.
 
 ## What I learned
+During this project I learned a lot about the nature and behavior of ATX power supplies. Previously I had never put much thought on what kind of pins all those connectors include.
+
 Prior to this project I had no experience or knowledge on laser cutting. After watching a couple tutorials on YouTube I installed Inkscape and started to sketch my casing. Overall it took me about 5 hours to draw the casing and one hour to cut and assemble it.
