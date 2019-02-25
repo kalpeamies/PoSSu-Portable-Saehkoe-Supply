@@ -27,33 +27,20 @@ Converting an ATX power supply into a general-purpose DC supply is relatively st
 * 
 
 ## Wires used:
-**Orange wire(s): +3.3V**
-
-Provides a DC voltage of +3.3 volts. All pins of this color are interconnected so it doesn't matter which one is chosen.
-
-**Red wire(s): +5V**
-
-Provides a DC voltage of +5 volts. All pins of this color are interconnected so it doesn't matter which one is chosen.
-
-**Yellow wire(s): +12V**
-
-Provides a DC voltage of +12 volts. All pins of this color are interconnected so it doesn't matter which one is chosen.
-
-**Black wire(s): Ground**
-
-Provides the ground voltage. All pins of this color are interconnected so it doesn't matter which one is chosen.
-
-**Green wire: ATX power button**
-
-When shorted to ground, this wire turns the power supply on. In this project it's connected to a switch in the front panel.
-
-**Purple wire: Standby +5V**
-
-This pin provides a +5V voltage when the supply is plugged in, even if it's not turned on. Normally used for purposes such as wake-on-lan, in this project it's used to power the red "Stby" status LED.
-
-**Gray wire: Power OK**
-
-This pin provides a +5V voltage to signal that the power supply is turned on and working normally. In this project it's used to power the green "OK" status LED. 
+**Orange wire(s): +3.3V**  
+Provides a DC voltage of +3.3 volts. All pins of this color are interconnected so it doesn't matter which one is chosen.  
+**Red wire(s): +5V**  
+Provides a DC voltage of +5 volts. All pins of this color are interconnected so it doesn't matter which one is chosen.  
+**Yellow wire(s): +12V**  
+Provides a DC voltage of +12 volts. All pins of this color are interconnected so it doesn't matter which one is chosen.  
+**Black wire(s): Ground**  
+Provides ground voltage. All pins of this color are interconnected so it doesn't matter which one is chosen.  
+**Green wire: ATX power button**  
+When shorted to ground, this wire turns the power supply on. In this project it's connected to a switch in the front panel.  
+**Purple wire: Standby +5V**  
+This pin provides a +5V voltage when the supply is plugged in, even if it's not turned on. Normally used for purposes such as wake-on-lan, in this project it's used to power the red "Stby" status LED.  
+**Gray wire: Power OK**  
+This pin provides a +5V voltage to signal that the power supply is turned on and working normally. In this project it's used to power the green "OK" status LED.
 
 ## Improvements for possible future revisions
 * MDF is not the most fireproof material
