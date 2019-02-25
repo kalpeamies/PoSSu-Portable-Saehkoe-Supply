@@ -12,34 +12,36 @@ Converting an ATX power supply into a general-purpose DC supply is relatively st
 * 1 x ATX power supply, salvaged from a dumpster
 * 1 x Fluke table-mounted multimeter from the 70's, mains-operated, salvaged from a dumpster
 * 2 x LEDs
-* 2 x PALJONKO ohm resistors for LEDs
+* 2 x **PALJONKO** ohm resistors for LEDs
 * 1 x 18 ohm 5W power resistor for a dummy load on the power supply
 * 1 x 2A fuse for the current going through multimeter
+* 1 x 2-port banana connector jack
 * 3mm MDF material for the casing
 * Wire, capable of handling a couple amps
 
 ## Tools used:
 * Laser cutter
 * Wire cutter
+* Wire stripper
 * Soldering iron and solder
 * 
 
 ## Wires used:
-#### Orange wire(s): +3.3V
+**Orange wire(s): +3.3V**
 Provides a DC voltage of +3.3 volts. All pins of this color are interconnected so it doesn't matter which one is chosen.
-#### Red wire(s): +5V
+**Red wire(s): +5V**
 Provides a DC voltage of +5 volts. All pins of this color are interconnected so it doesn't matter which one is chosen.
-#### Yellow wire(s): +12V
+**Yellow wire(s): +12V**
 Provides a DC voltage of +12 volts. All pins of this color are interconnected so it doesn't matter which one is chosen.
-#### Black wire(s): Ground
+**Black wire(s): Ground**
 Provides the ground voltage. All pins of this color are interconnected so it doesn't matter which one is chosen.
-#### Green wire: ATX power button
+**Green wire: ATX power button**
 When shorted to ground, this wire turns the power supply on. In this project it's connected to a switch in the front panel.
-#### Purple wire: Standby +5V
+**Purple wire: Standby +5V**
 This pin provides a +5V voltage when the supply is plugged in, even if it's not turned on. Normally used for purposes such as wake-on-lan, in this project it's used to power the red "Stby" status LED.
-#### Gray wire: Power OK
+**Gray wire: Power OK**
 This pin provides a +5V voltage to signal that the power supply is turned on and working normally. In this project it's used to power the green "OK" status LED. 
 
 ## Improvements for possible future revisions
-
 * MDF is not the most fireproof material
+* I used 0.1 mm of kerf on tab edges. It was a bit too much, and as a result the tabs were very tight and the case was very hard to assemble.
