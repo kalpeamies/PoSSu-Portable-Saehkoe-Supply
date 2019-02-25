@@ -26,7 +26,7 @@ Despite of the two devices being connected, they can still be used independently
 * 1 x ATX power supply, salvaged from a dumpster
 * 1 x Fluke 8000A table-mounted, mains-operated digital multimeter, salvaged from a dumpster
 * 2 x LEDs for status indicators
-* 2 x **PALJONKO** ohm resistors for LEDs
+* 2 x 460 ohm resistors for LEDs
 * 1 x 18 ohm 5W power resistor for a dummy load on the power supply
 * 1 x 2A fuse for the current going through multimeter
 * 1 x 2-port banana connector jack for voltage output
