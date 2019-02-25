@@ -49,6 +49,10 @@ This pin provides a +5V voltage to signal that the power supply is turned on and
 
 ## Casing
 ![Image](casing.png)
+**Blue:** Floors
+**Red:** Sides
+**Green:** Support pieces that keep the power supply in place
+**Purple:** Support beams that are located directly below the power supply to support its weight
 
 ## Warnings
 * Only ONE voltage level may be switched to output (out of center position) at a time. Switching two switches simultaneously out of center position will result in a short circuit that will most likely fry the power supply or at least blow its fuse (provided it has one). Since I did not implement a protection mechanish for this, it's the user's responsibility to ensure only one voltage level is switched to output at a time. Always double-check the switches before turning them.
