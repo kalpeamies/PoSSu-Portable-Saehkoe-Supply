@@ -71,11 +71,13 @@ This pin provides a +5V voltage to signal that the power supply is turned on and
 Rest of the wires can be truncated using wire cutters. A few wires can be left uncut for possible future use.
 
 ## Casing
+Casing of the device is cut with a laser cutter from 3mm thick MDF panel.
+
 ![Image](images/casing.png)
 *Illustration of the casing, excluding front panel  
 **Blue:** Floors (left: bottom, right: top)  
 **Red:** Sides  
-**Green:** Support pieces that surround the power supply keep the it in place  
+**Green:** Support pieces that surround the power supply and keep the it in place  
 **Purple:** Support beams that are located directly below the power supply to support its weight*
 
 ![Image](images/frontpanel.png)  
@@ -89,11 +91,11 @@ Rest of the wires can be truncated using wire cutters. A few wires can be left u
 
 ## Improvement suggestions for possible future revisions
 * MDF is not the most fireproof material, so you might consider using something else for the casing. A transparent material such as acrylic might be cool and even helpful for troubleshooting.
-* I used 0.1 mm of kerf on tab edges. It was a bit too much, and as a result the tabs were very tight and the case was very hard to assemble. If you plan to use my documents, use a little less kerf.
+* I used 0.1 mm of kerf on tab edges. It was a bit too much, and as a result the tabs were very tight and the case was very hard to assemble. If you plan on using my documents, use a little less kerf.
 * Short circuit protection mechanism. A stepped rotary switch would do the trick.
 * Both the supply and the multimeter require mains power. Carrying two power cords and using two wall outlets is a little unwieldly, but you might consider getting a C13 power cord splitter. The multimeter only consumes about 5W of power, so it should not be a problem.
 
 ## What I learned
-During this project I learned a lot about the nature and behavior of ATX power supplies. Previously I had never put much thought on what kind of pins all those connectors include, and I was surprised'how straightforward the procedure was overall.
+During this project I learned a lot about the nature and behavior of ATX power supplies. Previously I had never put much thought on what kind of pins all those connectors include, and I was surprised how straightforward the procedure was overall.
 
 Prior to this project I had no experience or knowledge on laser cutting. After watching a couple tutorials on YouTube I installed Inkscape and started to sketch my casing. Overall it took me about 5 hours to draw the casing and one hour to cut and assemble it.
