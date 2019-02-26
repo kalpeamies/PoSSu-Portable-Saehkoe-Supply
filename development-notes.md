@@ -4,7 +4,7 @@ PoSSu is a portable, mains-operated DC voltage supply that can supply up to 350 
 
 This project was done as a part of **Principles of repurposing of electronics (521229A)** course at University of Oulu. The main motivation for choosing this project in particular was that I wanted to utilize (read: get rid of) some of the elecronic junk that has found its way from dumpsters to my basement over the course of several years.
 
-![Image](appearance.png)
+![Image](images/appearance.png)
 
 ## Design procedure
 Converting an ATX power supply into a general-purpose DC supply is relatively straightforward and requires little to no knowledge of electronics. An ATX supply provides several set levels of DC voltage: 3.3V (orange wire) 5V (red wire) and 12V (yellow wire). A negative 12V voltage is also provided (blue wire) but it was not used in this project.
@@ -19,7 +19,7 @@ The user can choose whether to bring voltage directly to output port or run it t
 
 Despite of the two devices being connected, they can still be used independently; power can be drawn from the supply without running it through current meter, and the multimeter can still be used as a standalone meter for voltage, resistance, etc.
 
-![Image](wiring.png)
+![Image](images/wiring.png)
 *Illustrative schematic of wiring*
 
 ## Parts and components used
@@ -62,14 +62,14 @@ This pin provides a +5V voltage to signal that the power supply is turned on and
 Rest of the wires can be truncated using wire cutters.
 
 ## Casing
-![Image](casing.png)
+![Image](images/casing.png)
 *Illustration of the casing, excluding front panel  
 **Blue:** Floors (left: bottom, right: top)  
 **Red:** Sides  
 **Green:** Support pieces that surround the power supply keep the it in place  
 **Purple:** Support beams that are located directly below the power supply to support its weight*
 
-![Image](frontpanel.png)  
+![Image](images/frontpanel.png)  
 *Illustration of the front panel*
 
 ## Warnings
