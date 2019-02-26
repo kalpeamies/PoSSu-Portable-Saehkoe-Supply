@@ -11,9 +11,18 @@ Converting an ATX power supply into a general-purpose DC supply is relatively st
 
 In order to get the power supply working, however, a couple of thigs need to be done. First of all, the green wire needs to be shorted to ground. The green wire is normally wired to the power button of a PC, and shorting it to ground simulates a press of a power button. Whether the pins need to be shorted only once or constantly depends on the supply. This supply required the pins to be shorted all the time, and unplugging them would immediately turn the supply off. It's useful to short the pins through a switch or a button so it can be used as a power button for the device. Since my supply required continuous short, I used a 2-position slide switch, but in case it didn't, a push button might have done the thing.
 
+![Image](images/inside.png)
+*Wiring inside the casing. I truncated some wires (seen on right-hand side), but left some of them uncut so they could possibly be used for something later. I bundled them together with electric tape and placed them to the slot between the supply and casing.*
+
 Secondly, to get the supply to actually supply power properly, it needs to be "deceived" to think it's been plugged to a motherboard. For this, a low-resistance resistor is used to create a dummy load on a +5V pin. **Note that this resistor will draw a lot of current, causing it to heat up. A power resistor is warmly (no pun intended) recommended.** I used an 18 ohm power resistor with a maximum power dissipation of 5 Watts. I hot-glued it directly in front of the power supply's cooling air intake to aid heat dissipation.
 
+![Image](images/dummy_load_resistor.png)
+*Power resistor serving as a dummy load in the +5V pin.*
+
 I wanted this project to be a single functioning entity instead of just gluing two gadgets together. I wanted to be able to measure current with just a press of a button, without having to run banana cables though the multimeter's panel. To solve this, I made a little hole to the multimeter's plastic casing, ran two wires through it and soldered them to pins corresponding to the meter's jacks, thus bypassing the front panel. This solution, however, also bypassed the meter's internal fuse, so an external fuse needed to be added to the wiring. The multimeter's current meter was now in series with the voltage supply, allowing user to measure current and calculate power output.
+
+![Image](images/meter_fuse.png)
+*Current meter's external input and fuse.*
 
 The user can choose whether to bring voltage directly to output port or run it through current meter. A three-position switch controls each voltage level; in center position the cirtuit is open and no voltage is supplied to output port, in upper position the current meter is used, and in lower position voltage is brought directly to output port.
 
@@ -59,7 +68,7 @@ This pin provides a +5V voltage when the supply is plugged in, even if it's not 
 **Gray wire: Power OK**  
 This pin provides a +5V voltage to signal that the power supply is turned on and working normally. In this project it's used to power the green "OK" status LED.  
 
-Rest of the wires can be truncated using wire cutters.
+Rest of the wires can be truncated using wire cutters. A few wires can be left uncut for possible future use.
 
 ## Casing
 ![Image](images/casing.png)
