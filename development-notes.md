@@ -24,7 +24,7 @@ I wanted this project to be a single functioning entity instead of just gluing t
 ![Image](images/meter_fuse.png)
 *Current meter's external input and fuse.*
 
-The user can choose whether to bring voltage directly to output port or run it through current meter. A three-position switch controls each voltage level; in center position the cirtuit is open and no voltage is supplied to output port, in upper position the current meter is used, and in lower position voltage is brought directly to output port.
+The user can choose whether to bring voltage directly to output port or run it through current meter. A three-position switch controls each voltage level; in center position the circuit is open and no voltage is supplied to output port, in upper position the current meter is used, and in lower position voltage is brought directly to output port.
 
 Despite of the two devices being connected, they can still be used independently; power can be drawn from the supply without running it through current meter, and the multimeter can still be used as a standalone meter for voltage, resistance, etc.
 
@@ -86,6 +86,7 @@ Casing of the device is cut with a laser cutter from 3mm thick MDF panel.
 *Illustration of the front panel*
 
 ## Warnings
+* This design comes with ABSOLUTELY NO WARRANTY. Only consider forking this project if you know what you are doing.
 * Only ONE voltage level may be switched to output (out of center position) at a time. Switching two switches simultaneously out of center position will result in a short circuit that will most likely fry the power supply or at least blow its fuse (provided it has one). Since I did not implement a protection mechanish for this, it's the user's responsibility to ensure only one voltage level is switched to output at a time. Always double-check the switches before turning them.
 * MDF is made of wood and is therefore not fireproof. As there are some exposed wires inside the casing, a risk of a high-current short circuit exists. I would advise that you never leave the device unattended when it's plugged in.
 * The resistor used as a dummy load will run hot, so keep it away from any wooden parts, e.g. the casing.
