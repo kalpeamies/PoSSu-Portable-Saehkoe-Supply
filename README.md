@@ -6,3 +6,4 @@ This project was done as a part of **Principles of repurposing of electronics (5
 
 For a longer story, see development-notes.md
 
+For laser cutting documents for the casing, see files casing_laser.svg and frontpanel_laser.svg.
