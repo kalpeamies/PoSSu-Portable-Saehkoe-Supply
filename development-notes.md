@@ -37,12 +37,14 @@ Despite of the two devices being connected, they can still be used independently
 * 2 x LEDs for status indicators
 * 2 x 460 ohm resistors for LEDs
 * 1 x 18 ohm 5W power resistor for a dummy load on the power supply
-* 1 x 2A fuse for the current going through multimeter
+* 1 x 2A fuse and a suitable socket, for the current going through multimeter
 * 1 x 2-port banana connector jack for voltage output
 * 4 x small screws and corresponding nuts for attaching the multimeter to casing
 * 1 x small piece of wiring board to connect fuse and wires going to multimeter
 * 0.3 m2 of 3mm MDF material for the casing
 * Wire, capable of handling a couple amps
+
+The only components I needed to buy were the power resistor and the fuse socket. Everything else was either second-hand or provided by the Guild's electronics club or Fab Lab Oulu.
 
 ## Tools used
 * Laser cutter
@@ -96,6 +98,10 @@ Casing of the device is cut with a laser cutter from 3mm thick MDF panel.
 * Both the supply and the multimeter require mains power. Carrying two power cords and using two wall outlets is a little unwieldly, but you might consider getting a C13 power cord splitter. The multimeter only consumes about 5W of power, so it should not be a problem.
 
 ## What I learned
-During this project I learned a lot about the nature and behavior of ATX power supplies. Previously I had never put much thought on what kind of pins all those connectors include, and I was surprised how straightforward the procedure was overall.
+During this project I learned a lot about the nature and behavior of ATX power supplies. Previously I had never put much thought on what kind of voltages they provide, and I was surprised how straightforward the conversion procedure was overall.
 
-Prior to this project I had no experience or knowledge on laser cutting. After watching a couple tutorials on YouTube I installed Inkscape and started to sketch my casing. Overall it took me about 5 hours to draw the casing and one hour to cut and assemble it.
+During design I referred to these articles for advice:
+https://www.electronics-tutorials.ws/blog/convert-atx-psu-to-bench-supply.html
+https://www.instructables.com/id/ATX--%253e-Lab-Bench-Power-Supply-Conversion/
+
+Prior to this project I had no experience or knowledge on laser cutting. Designing a complex casing from scratch seemed more or less like black magic to me. After watching a couple tutorials on YouTube I installed Inkscape and started to sketch my casing. Overall it took me about 5 hours to design and draw the casing and one hour to cut and assemble it. The staff of Fab Lab Oulu helped me get started with the cutting.
